@@ -31,7 +31,7 @@ from qiskit_machine_learning.utils import algorithm_globals
 from qiskit.circuit.library import ZZFeatureMap, TwoLocal
 from qiskit.quantum_info import Statevector, Pauli
 
-CSV_PATH = "/Users/4c/Desktop/GHQ/data/loto7hh_4580_k21.csv"
+CSV_PATH = "/data/loto7hh_4580_k21.csv"
 
 # ispis CSV
 df = pd.read_csv(CSV_PATH)
@@ -219,7 +219,7 @@ def main():
     print()
     """
     Predikcija sledeće kombinacije (GRASP + kvantna regresija, deterministički, strukturno):
-    (2, 8, 10, 22, 23, 33, 34)
+    (2, 8, x, y, z, 33, 34)
     """
 
     print()
